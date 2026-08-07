@@ -14,7 +14,7 @@ jobs:
         run: echo "Welcome"
 
       - name: Checkout repo
-        uses: actions/checkout@4.2.2
+        uses: actions/checkout@v4
 
       - name: List repo files
         run: ls -la
