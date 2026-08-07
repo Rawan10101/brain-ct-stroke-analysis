@@ -12,3 +12,9 @@ jobs:
     steps:
       - name: Print a welcome message
         run: echo "Welcome"
+
+      - name: Checkout repo
+        uses: actions/checkout@4.2.2
+
+      - name: List repo files
+        run: ls -la
